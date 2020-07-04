@@ -1,0 +1,62 @@
+/* タイトル 紫の背景を白で囲う */
+h1 {
+  font-family: YuGothic;
+  color: #FFFFFF;
+  background: #c4a6ca;
+  box-shadow: 0px 0px 0px 5px #c4a6ca;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em
+}
+
+/* 中項目 紫の背景に白文字、左端に濃い紫 */
+h2 {
+  font-family: YuGothic;
+  padding: 0.3em;/*文字周りの余白*/
+  color: #FFFFFF;/*文字色*/
+  background: #c4a6ca;/*背景色*/
+  border-left: solid 5px #c490ca;/*左線（実線 太さ 色）*/
+}
+
+/* 小項目 紫野背景に白文字、タグ風 */
+h3 {
+  font-family: YuGothic;
+  color: #FFFFFF;/*文字色*/
+  padding: 0.5em;/*文字周りの余白*/
+  display: inline-block;/*おまじない*/
+  line-height: 0.7;/*行高*/
+  background: #c4a6ca;/*背景色*/
+  vertical-align: middle;
+  border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+}
+
+/* 小項目にタグ風のパンチ穴をあける */
+h3:before {
+  content: '●';
+  color: #FFFFFF;
+  margin-right: 8px;
+}
+
+/* 全体のフォントは游ゴシックで色はグレー */
+body{
+  font-family: YuGothic;
+  color: #707070;
+}
+
+/* 画像の角を丸くする */
+img {
+  border-radius: 25px;
+  padding: 15px;
+}
+
+/* spanタグのところは太字 */
+span {
+  font-weight: bold;
+}
+
+/* 画面が横いっぱいに広がらないようマージンを設定 */
+.container {
+  width: 100%;
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+}
