@@ -1,9 +1,9 @@
 <!--MySQL,PHP,HTMLを組み合わせて掲示板-->
 <?php
 //MySQLへの接続
-$dsn = 'mysql:dbname=tb220049db;host=localhost';
-	$user = 'tb-220049';
-	$password = 's7PacKKFhf';
+$dsn = 'mysql:dbname=hoge;host=localhost';
+	$user = 'hoge';
+	$password = 'hoge';
 	$pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
 //bbsテーブルの作成
